@@ -1,8 +1,11 @@
 import React from 'react';
-import { mount } from 'marketing/MarketingApp';
+import { MarketingApp } from 'marketing/MarketingApp';
 
 export const App = () => {
   return (
-    <h1>Hi there 👋🏻</h1>
+    <>
+      <h1>Hi there 👋🏻</h1>
+      <MarketingApp />    
+    </>
   );
 };
