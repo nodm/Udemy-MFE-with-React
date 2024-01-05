@@ -25,7 +25,7 @@ export const mount = (containerElement, { onNavigate, history, initialPath }) =>
 };
 
 if (process.env.NODE_ENV === 'development') {
-  const appRoot =  document.getElementById('marketing-dev-root');
+  const appRoot =  document.getElementById('auth-dev-root');
 
   if (appRoot) {
     mount(appRoot, { history: createBrowserHistory() });
